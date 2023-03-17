@@ -16,7 +16,7 @@
 	<div id="navbar">
 		<img src="https://ftm.guru/icons/m2.png" height="100%">
 		<a href="#dapps" target="">ÐApps</a>
-		<a href="#intro-1-outer" target="_blank">Manifesto</a>
+		<a href="https://ftm.guru/manifesto" target="_blank">Manifesto</a>
 		<a href="http://discord.gg/QpyfMarNrV" target="_blank">Say hello!</a>
 	</div>
 
@@ -33,16 +33,59 @@
 		<div id="dapps-bi">
 			<input id="dapps-inp" placeholder="Your favorite Dapp...">
 			<br>
-			<button id="dapps-btn-s">Search</button>
-			<button id="dapps-btn-i">I'm feeling Lucky</button>
+			<button id="dapps-btn-s" onclick="window.location='#dapps-popr'">Search</button>
+			<button id="dapps-btn-i" onclick="window.location='#dapps-popr'">I'm feeling Lucky</button>
 		</div>
-
+		<br id="dapps-popr">
 		<div  id="dapps-h">
 			<h2 id="dapps-h-2">Popular Results</h2>
 			<span id="dapps-h-s" onclick="window.location='#dapp-last'">&gt;&gt; Scroll to last app</span>
 		</div>
 
 		<div class="dapps-p">
+
+
+			<div class="dapps-pb" target="_blank" onclick="window.location='https://eliteness.network/ethena'">
+				<div class="dapps-p-h">eTHENA</div>
+				<div class="dapps-p-u">↳eliteness.network/ethena</div>
+				<div class="dapps-p-d">eTHENA offers a Liquid Staking service for veTHE fNFTs. Thena.fi veNFTs can be converted to eTHENA & Staked to earn Real Yield paid BNB or be pooled with WBNB to farm THE.</div>
+				<div class="dapps-p-f">
+					<img src="https://ftm.guru/icons/bnb.svg">
+					<span>Binance Smart Chain</span>
+				</div>
+				<div class="dapps-p-t">
+					<span>#RealYield</span>
+				</div>
+			</div>
+
+			<div class="dapps-pb" target="_blank" onclick="window.location='https://eliteness.network/el-ramses'">
+				<div class="dapps-p-h">El Ramses</div>
+				<div class="dapps-p-u">↳eliteness.network/el-ramses</div>
+				<div class="dapps-p-d">El Ramses is the first L2 that offers vote optimization for veRAM fNFTs of Ramses.exchange powered by the ELR token with Real Yield paid in ETH, with Flywheel-enhanced deep Exit Liquidity generated.</div>
+				<div class="dapps-p-f">
+					<img src="https://ftm.guru/icons/arb1.svg">
+					<span>Arbitrum One</span>
+				</div>
+				<div class="dapps-p-t">
+					<span>#RealYield</span>
+				</div>
+			</div>
+
+			<div class="dapps-pb" target="_blank" onclick="window.location='https://eliteness.network/lockless'">
+				<div class="dapps-p-h">Lockless Protocol</div>
+				<div class="dapps-p-u">↳eliteness.network/lockless</div>
+				<div class="dapps-p-d">Lockless Protocol is a Liquid Staking Derivate for Cosmos-SDK chains such as Kava & Canto, unlocking the potential of timelocked staking unique "SW-Tokens" usable across DeFi platforms.</div>
+				<div class="dapps-p-f-m">
+					<span class="dapps-p-f">
+						<img src="https://ftm.guru/icons/kava.svg">
+						<span>Kava Mainnet</span>
+					</span>
+					<span class="dapps-p-f">
+						<img src="https://ftm.guru/icons/ech.svg">
+						<span>Echelon</span>
+					</span>
+				</div>
+			</div>
 
 			<div class="dapps-pb" target="_blank" onclick="window.location='https://ftm.guru/equalizer'">
 				<div class="dapps-p-h">VeNAMM: The Ve-NFT A.M.M.</div>
@@ -86,25 +129,6 @@
 				</div>
 			</div>
 
-			<div class="dapps-pb" target="_blank" onclick="window.location='https://eliteness.network/ethena'">
-				<div class="dapps-p-h">eTHENA</div>
-				<div class="dapps-p-u">↳eliteness.network/ethena</div>
-				<div class="dapps-p-d">eTHENA offers a Liquid Staking service for veTHE fNFTs. Thena.fi veNFTs can be converted to eTHENA & Staked to earn BNB.</div>
-				<div class="dapps-p-f">
-					<img src="https://ftm.guru/icons/bnb.svg">
-					<span>Binance Smart Chain</span>
-				</div>
-			</div>
-
-			<div class="dapps-pb" target="_blank" onclick="window.location='https://ftm.guru/GRAIN'">
-				<div class="dapps-p-h">Kompound Protocol (Fantom)</div>
-				<div class="dapps-p-u">↳ftm.guru/GRAIN</div>
-				<div class="dapps-p-d">Immutable Yield-Compounder to automate & optimize yield-farming with De-Fi protocols on Opera.</div>
-				<div class="dapps-p-f">
-					<img src="https://ftm.guru/icons/ftm.svg">
-					<span>Fantom Opera</span>
-				</div>
-			</div>
 			<div class="dapps-pb" target="_blank" onclick="window.location='https://vax.mtv.guru'">
 				<div class="dapps-p-h">Value Added eXchange</div>
 				<div class="dapps-p-u">↳vax.mtv.guru</div>
@@ -117,18 +141,7 @@
 					<span>#DEX</span>
 				</div>
 			</div>
-			<div class="dapps-pb" target="_blank" onclick="window.location='https://scarab.finance'">
-				<div class="dapps-p-h">Scarab Finance</div>
-				<div class="dapps-p-u">↳scarab.finance</div>
-				<div class="dapps-p-d">Algorithmic Stablcoin pegged to 1 FTM. Acquired by Guru Network in October of 2022.</div>
-				<div class="dapps-p-f">
-					<img src="https://ftm.guru/icons/ftm.svg">
-					<span>Fantom Opera</span>
-				</div>
-				<div class="dapps-p-t">
-					<span>#Scarab</span>
-				</div>
-			</div>
+
 			<div class="dapps-pb" target="_blank" onclick="window.location='https://ftm.guru/ascend'">
 				<div class="dapps-p-h">Ascend: Scarab tokens</div>
 				<div class="dapps-p-u">↳ftm.guru/ascend</div>
@@ -142,6 +155,7 @@
 					<span>#LlamaPay</span>
 				</div>
 			</div>
+
 			<div class="dapps-pb" target="_blank" onclick="window.location='https://ftm.guru/ascend/floor'">
 				<div class="dapps-p-h">Floor Price Analytics (Ascend)</div>
 				<div class="dapps-p-u">↳ftm.guru/ascend/floor</div>
@@ -155,6 +169,43 @@
 					<span>#Analytics</span>
 				</div>
 			</div>
+
+			<div class="dapps-pb" target="_blank" onclick="window.location='https://ftm.guru/GRAIN'">
+				<div class="dapps-p-h">Kompound Protocol (Fantom)</div>
+				<div class="dapps-p-u">↳ftm.guru/GRAIN</div>
+				<div class="dapps-p-d">Immutable Yield-Compounder to automate & optimize yield-farming with De-Fi protocols on Opera.</div>
+				<div class="dapps-p-f">
+					<img src="https://ftm.guru/icons/ftm.svg">
+					<span>Fantom Opera</span>
+				</div>
+			</div>
+
+			<div class="dapps-pb" target="_blank" onclick="window.location='https://ftm.guru/rpc'">
+				<div class="dapps-p-h">Fantom RPC Switch</div>
+				<div class="dapps-p-u">↳ftm.guru/rpc</div>
+				<div class="dapps-p-d">The RPC Switch is a nifty tool for selecting the best and verified Rapid Procedure Call Uniform Resource Location as your Web3 provider for interacting with the Fantom Opera's EVM. Choose the best endpoint by analysing its Latency and Block height & find RPC rankings in real-time.</div>
+				<div class="dapps-p-f">
+					<img src="https://ftm.guru/icons/ftm.svg">
+					<span>Fantom Opera</span>
+				</div>
+				<div class="dapps-p-t">
+					<span>#RPC</span>
+				</div>
+			</div>
+
+			<div class="dapps-pb" target="_blank" onclick="window.location='https://scarab.finance'">
+				<div class="dapps-p-h">Scarab Finance</div>
+				<div class="dapps-p-u">↳scarab.finance</div>
+				<div class="dapps-p-d">Algorithmic Stablcoin pegged to 1 FTM. Acquired by Guru Network in October of 2022.</div>
+				<div class="dapps-p-f">
+					<img src="https://ftm.guru/icons/ftm.svg">
+					<span>Fantom Opera</span>
+				</div>
+				<div class="dapps-p-t">
+					<span>#Scarab</span>
+				</div>
+			</div>
+
 			<div class="dapps-pb" target="_blank" onclick="window.location='https://kcc.eliteness.network/kompound'">
 				<div class="dapps-p-h">Kompound Protocol (K.C.C.)</div>
 				<div class="dapps-p-u">↳kcc.eliteness.network/GRAIN</div>
@@ -686,18 +737,7 @@
 					<span>#GameFi</span>
 				</div>
 			</div>
-			<div class="dapps-pb" target="_blank" onclick="window.location='https://ftm.guru/rpc'">
-				<div class="dapps-p-h">Fantom RPC Switch</div>
-				<div class="dapps-p-u">↳ftm.guru/rpc</div>
-				<div class="dapps-p-d">The RPC Switch is a nifty tool for selecting the best and verified Rapid Procedure Call Uniform Resource Location as your Web3 provider for interacting with the Fantom Opera's EVM. Choose the best endpoint by analysing its Latency and Block height & find RPC rankings in real-time.</div>
-				<div class="dapps-p-f">
-					<img src="https://ftm.guru/icons/ftm.svg">
-					<span>Fantom Opera</span>
-				</div>
-				<div class="dapps-p-t">
-					<span>#RPC</span>
-				</div>
-			</div>
+
 			<div class="dapps-pb" target="_blank" onclick="window.location='https://ftm.guru/rpc'">
 				<div class="dapps-p-h">SeedR - Project Launchpad</div>
 				<div class="dapps-p-u">↳mtv.guru/seedr</div>
@@ -981,7 +1021,7 @@
 		<span id="footrsub">Meet our frens, associates, partners & clients!</span>
 		<br><br>
 		<div id="frens">
-			<a href="https://fmc.guru" target="_blank"><img src="https://ftm.guru/icons/FMC.svg"></a>
+			<a target="_blank" href="https://fmc.guru" target="_blank"><img src="https://ftm.guru/icons/FMC.svg"></a>
 			<a target="_blank" href="https://paraswap.io/#/?network=fantom&outputCurrency=0xf43cc235e686d7bc513f53fbffb61f760c3a1882"><img src="https://ftm.guru/icons/paraswap.svg"></a>
 			<a target="_blank" href="https://equalizer.exchange"><img src="https://ftm.guru/icons/equal.png"></a>
 			<a target="_blank" href="https://arbitrum.io"><img src="https://ftm.guru/icons/arb1.svg"></a>
@@ -989,46 +1029,46 @@
 			<a target="_blank" href="https://firebird.finance/swap"><img src="https://ftm.guru/icons/firebird.svg"></a>
 			<a target="_blank" href="https://openocean.finance/classic#/FANTOM/ELITE/FTM"><img src="https://ftm.guru/icons/ooe.png"></a>
 			<img src="https://ftm.guru/icons/fe.png">
-			<a href="https://kek.tools/t/elite" target="_blank"><img src="https://ftm.guru/icons/kek.png"></a>
-			<a href="https://tarot.to/boost" target="_blank"><img src="https://ftm.guru/icons/tarot.svg"></a>
-			<a href="https://kcc.io" target="_blank"><img src="https://ftm.guru/icons/kucino.svg"></a>
+			<a target="_blank" href="https://kek.tools/t/elite" target="_blank"><img src="https://ftm.guru/icons/kek.png"></a>
+			<a target="_blank" href="https://tarot.to/boost" target="_blank"><img src="https://ftm.guru/icons/tarot.svg"></a>
+			<a target="_blank" href="https://kcc.io" target="_blank"><img src="https://ftm.guru/icons/kucino.svg"></a>
 			<a target="_blank" href="https://exchange.nipplelabs.finance/#/swap?outputCurrency=0xf43cc235e686d7bc513f53fbffb61f760c3a1882"><img src="https://ftm.guru/icons/nips.svg"></a>
 			<a target="_blank" href="https://wraithswap.finance/add/FTM/0xf43Cc235E686d7BC513F53Fbffb61F760c3a1882"><img src="https://ftm.guru/icons/wraith.svg"></a>
-			<a href="https://mtv.ac" target="_blank"><img src="https://ftm.guru/icons/mtv.png"></a>
-			<a href="https://echelon.network" target="_blank"><img src="https://ftm.guru/icons/ech.svg"></a>
-			<a href="https://defillama.com/protocol/ftmguru" target="_blank"><img src="https://ftm.guru/icons/defillama.svg"></a>
-			<a href="https://nomics.com/assets/elite2-ftmguru" target="_blank"><img src="https://ftm.guru/icons/nomics.svg"></a>
-			<a href="https://debank.com/profile/0x167d87a906da361a10061fe42bbe89451c2ee584" target="_blank"><img src="https://ftm.guru/icons/debank.svg"></a>
-			<a href="https://fbomb.finance/" target="_blank"><img src="https://ftm.guru/icons/bomb.svg"></a>
-			<a href="https://twitter.com/supernovaftm" target="_blank"><img src="https://ftm.guru/icons/sst.png"></a>
-			<a href="https://onering.finance/" target="_blank"><img src="https://ftm.guru/icons/ring.svg"></a>
-			<a href="https://coinmarketcap.com/currencies/elite-1337" target="_blank"><img src="https://ftm.guru/icons/cmc.svg"></a>
-			<a href="https://www.coingecko.com/en/coins/elite-1337" target="_blank"><img src="https://ftm.guru/icons/gecko.svg"></a>
+			<a target="_blank" href="https://mtv.ac" target="_blank"><img src="https://ftm.guru/icons/mtv.png"></a>
+			<a target="_blank" href="https://echelon.network" target="_blank"><img src="https://ftm.guru/icons/ech.svg"></a>
+			<a target="_blank" href="https://defillama.com/protocol/ftmguru" target="_blank"><img src="https://ftm.guru/icons/defillama.svg"></a>
+			<a target="_blank" href="https://nomics.com/assets/elite2-ftmguru" target="_blank"><img src="https://ftm.guru/icons/nomics.svg"></a>
+			<a target="_blank" href="https://debank.com/profile/0x167d87a906da361a10061fe42bbe89451c2ee584" target="_blank"><img src="https://ftm.guru/icons/debank.svg"></a>
+			<a target="_blank" href="https://fbomb.finance/" target="_blank"><img src="https://ftm.guru/icons/bomb.svg"></a>
+			<a target="_blank" href="https://twitter.com/supernovaftm" target="_blank"><img src="https://ftm.guru/icons/sst.png"></a>
+			<a target="_blank" href="https://onering.finance/" target="_blank"><img src="https://ftm.guru/icons/ring.svg"></a>
+			<a target="_blank" href="https://coinmarketcap.com/currencies/elite-1337" target="_blank"><img src="https://ftm.guru/icons/cmc.svg"></a>
+			<a target="_blank" href="https://www.coingecko.com/en/coins/elite-1337" target="_blank"><img src="https://ftm.guru/icons/gecko.svg"></a>
 			<a target="_blank" href="https://kyberswap.com/#/swap?inputCurrency=FTM&outputCurrency=0xf43cc235e686d7bc513f53fbffb61f760c3a1882&networkId=250"><img src="https://ftm.guru/icons/kyber.svg"></a>
 			<a target="_blank" href="https://fantom-exchange.jetswap.finance/#/add/FANTOM/0xf43Cc235E686d7BC513F53Fbffb61F760c3a1882"><img src="https://ftm.guru/icons/jet.svg"></a>
-			<a href="https://tgr.finance" target="_blank"><img src="https://ftm.guru/icons/htz.png"></a>
-			<a href="https://oxdao.fi" target="_blank"><img src="https://ftm.guru/icons/oxd.svg"></a>
-			<a href="https://messari.io/asset/ftm-guru" target="_blank"><img src="https://ftm.guru/icons/messari.svg"></a>
+			<a target="_blank" href="https://tgr.finance" target="_blank"><img src="https://ftm.guru/icons/htz.png"></a>
+			<a target="_blank" href="https://oxdao.fi" target="_blank"><img src="https://ftm.guru/icons/oxd.svg"></a>
+			<a target="_blank" href="https://messari.io/asset/ftm-guru" target="_blank"><img src="https://ftm.guru/icons/messari.svg"></a>
 			<a target="_blank" href="https://trade.zoocoin.cash/trade/market?inputCurrency=FTM&outputCurrency=0xf43Cc235E686d7BC513F53Fbffb61F760c3a1882"><img src="https://ftm.guru/icons/zoo.png"></a>
 			<a target="_blank" href="https://app.elk.finance/#/swap?outputCurrency=0xf43cc235e686d7bc513f53fbffb61f760c3a1882"><img src="https://ftm.guru/icons/elk.svg"></a>
 			<a target="_blank" href="https://spookyswap.finance/#/swap?outputCurrency=0xf43cc235e686d7bc513f53fbffb61f760c3a1882"><img src="https://ftm.guru/icons/spooky.sq.svg"></a>
 			<a target="_blank" href="https://swap.shibafantom.finance/#/swap?outputCurrency=0xf43cc235e686d7bc513f53fbffb61f760c3a1882"><img src="https://ftm.guru/icons/shiba.sq.svg"></a>
-			<a href="https://www.thena.fi" target="_blank"><img src="https://ftm.guru/icons/the.png"></a>
-			<a href="https://solidly.com" target="_blank"><img src="https://ftm.guru/icons/solid.png"></a>
-			<a href="https://metis.io" target="_blank"><img src="https://ftm.guru/icons/metis.svg"></a>
-			<a href="https://dogechain.dog" target="_blank"><img src="https://ftm.guru/icons/wdoge.png"></a>
-			<a href="https://multiworms.ac" target="_blank"><img src="https://ftm.guru/icons/dirt.png"></a>
-			<a href="https://proximathegame.com" target="_blank"><img src="https://ftm.guru/icons/prox.png"></a>
-			<a href="https://beets.fi" target="_blank"><img src="https://ftm.guru/icons/beets.png"></a>
-			<a href="https://app.hedgey.finance/#/otc" target="_blank"><img src="https://ftm.guru/icons/hedgey.svg"></a>
-			<a href="https://milleniumclub.ca" target="_blank"><img src="https://ftm.guru/icons/mclb.png"></a>
-			<a href="https://spartacus.exchange" target="_blank"><img src="https://ftm.guru/icons/spartacus.svg"></a>
-			<a href="https://solidexfinance.com/#/pools" target="_blank"><img src="https://ftm.guru/icons/solidex.svg"></a>
-			<a href="https://app.pickle.finance/farms" target="_blank"><img src="https://ftm.guru/icons/pickle.svg"></a>
-			<a href="https://ftm.guru/bo"><img src="https://ftm.guru/icons/band.svg"></a>
-			<a href="https://fantom.foundation" target="_blank"><img src="https://ftm.guru/icons/ftm.svg"></a>
+			<a target="_blank" href="https://www.thena.fi" target="_blank"><img src="https://ftm.guru/icons/the.png"></a>
+			<a target="_blank" href="https://solidly.com" target="_blank"><img src="https://ftm.guru/icons/solid.png"></a>
+			<a target="_blank" href="https://metis.io" target="_blank"><img src="https://ftm.guru/icons/metis.svg"></a>
+			<a target="_blank" href="https://dogechain.dog" target="_blank"><img src="https://ftm.guru/icons/wdoge.png"></a>
+			<a target="_blank" href="https://multiworms.ac" target="_blank"><img src="https://ftm.guru/icons/dirt.png"></a>
+			<a target="_blank" href="https://proximathegame.com" target="_blank"><img src="https://ftm.guru/icons/prox.png"></a>
+			<a target="_blank" href="https://beets.fi" target="_blank"><img src="https://ftm.guru/icons/beets.png"></a>
+			<a target="_blank" href="https://app.hedgey.finance/#/otc" target="_blank"><img src="https://ftm.guru/icons/hedgey.svg"></a>
+			<a target="_blank" href="https://milleniumclub.ca" target="_blank"><img src="https://ftm.guru/icons/mclb.png"></a>
+			<a target="_blank" href="https://spartacus.exchange" target="_blank"><img src="https://ftm.guru/icons/spartacus.svg"></a>
+			<a target="_blank" href="https://solidexfinance.com/#/pools" target="_blank"><img src="https://ftm.guru/icons/solidex.svg"></a>
+			<a target="_blank" href="https://app.pickle.finance/farms" target="_blank"><img src="https://ftm.guru/icons/pickle.svg"></a>
+			<a target="_blank" href="https://ftm.guru/bo"><img src="https://ftm.guru/icons/band.svg"></a>
+			<a target="_blank" href="https://fantom.foundation" target="_blank"><img src="https://ftm.guru/icons/ftm.svg"></a>
 			<a target="_blank" href="https://panicswap.com/farms"><img src="https://ftm.guru/icons/panic.png"></a>
-			<a href="https://vfat.tools" target="_blank"><img src="https://ftm.guru/icons/vfat.png"></a>
+			<a target="_blank" href="https://vfat.tools" target="_blank"><img src="https://ftm.guru/icons/vfat.png"></a>
 			<a target="_blank" href="https://twitter.com/TheTulipDAO"><img src="https://ftm.guru/icons/tulipdao.png"></a>
 			<a target="_blank" href="https://radialfinance.org"><img src="https://ftm.guru/icons/rdl.svg"></a>
 			<a target="_blank" href="https://aerariumfi.com"><img src="https://ftm.guru/icons/aera.png"></a>
@@ -1038,19 +1078,26 @@
 			<a target="_blank" href="https://vax.mtv.guru"><img src="https://ftm.guru/icons/vax.svg"></a>
 			<a target="_blank" href="https://scarab.finance"><img src="https://ftm.guru/icons/gscarab.png"></a>
 			<a target="_blank" href="https://scarab.finance/sinspirit-valley"><img src="https://ftm.guru/icons/sinspirit.png"></a>
-		<marqee>
+			<a target="_blank" href="https://defiwars.xyz/projects/gurunetwork"><img src="https://ftm.guru/icons/defiwars.svg"></a>
+			<a target="_blank" href="https://eliteness.network/lockless"><img src="https://ftm.guru/icons/swkava.svg"></a>
+			<a target="_blank" href="https://kava.io"><img src="https://ftm.guru/icons/kava.svg"></a>
+			<a target="_blank" href="https://equilibrefinance.com"><img src="https://ftm.guru/icons/equilibre.sq.svg"></a>
+			<a target="_blank" href="https://dextools.io"><img src="https://ftm.guru/icons/dexscreener.svg"></a>
+			<a target="_blank" href="https://dextools.io"><img src="https://ftm.guru/icons/dextools.svg"></a>
+			<a target="_blank" href="https://dextools.io"><img src="https://ftm.guru/icons/ethena.png"></a>
+			<a target="_blank" href="https://dextools.io"><img src="https://ftm.guru/icons/ram.svg"></a>
 		</div>
 
 
 		<br><br>Looking for other Guru Network sites?
 		<br>
 		<div align="center" class="othersites">
-			<a href="https://ftm.guru" target="_blank"><img src="https://ftm.guru/icons/64.png"></a>
-			<a href="https://fmc.guru" target="_blank"><img src="https://ftm.guru/icons/FMC.svg"></a>
-			<a href="https://kcc.eliteness.network" target="_blank"><img src="https://ftm.guru/icons/kucino.svg"></a>
-			<a href="https://mtv.guru" target="_blank"><img src="https://ftm.guru/icons/mtvguru.png"></a>
-			<a href="https://ech.guru" target="_blank"><img src="https://ftm.guru/icons/echguru.png"></a>
-			<a href="https://eliteness.network" target="_blank"><img src="https://ftm.guru/icons/m2.png"></a>
+			<a target="_blank" href="https://ftm.guru" target="_blank"><img src="https://ftm.guru/icons/64.png"></a>
+			<a target="_blank" href="https://fmc.guru" target="_blank"><img src="https://ftm.guru/icons/FMC.svg"></a>
+			<a target="_blank" href="https://kcc.eliteness.network" target="_blank"><img src="https://ftm.guru/icons/kucino.svg"></a>
+			<a target="_blank" href="https://mtv.guru" target="_blank"><img src="https://ftm.guru/icons/mtvguru.png"></a>
+			<a target="_blank" href="https://ech.guru" target="_blank"><img src="https://ftm.guru/icons/echguru.png"></a>
+			<a target="_blank" href="https://eliteness.network" target="_blank"><img src="https://ftm.guru/icons/m2.png"></a>
 		</div>
 
 		<br><br>This new website is still under construction and might not include all our dApps, tools, services, contracts & offerings.

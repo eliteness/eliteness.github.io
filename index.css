@@ -17,15 +17,22 @@
 html{
   background-size: 100%;
   background-attachment: fixed;
-  color:#000;
+  color:#fff;
   /*text-shadow: 2px 2px 2px #000;*/
-  background-image: radial-gradient( pink, #90F7EC21);
+  background-image: linear-gradient( 45deg, black, #0007);
+	background-color:#01011d;
+	background-image:radial-gradient(at 70% 5%,rgba(6,101,216,.16) 0,transparent 50%);
+	background-color:#01011d;
+	background-image:radial-gradient(at 30% 5%,rgba(16,201,255,.36) 0,transparent 50%);
+	background-attachment: fixed;
+	background-position: cover;
 
 }
 * {
   scroll-behavior: smooth !important;
   font-family: regular;
   transition: background-size 0.5s;
+  color:#fff;
 }
 
 a {
@@ -47,6 +54,11 @@ h1 {
 .social a img {
   height: 24px;
   margin:4px 4px 4px 0;
+}
+
+.cat-h2 {
+	font-size:2.25em;
+	margin-left: 5px;
 }
 
 /************* NOTIFS ****************/
@@ -122,7 +134,7 @@ h1 {
 }
 .wrapper-tiles {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .wrapper-tile {

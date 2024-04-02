@@ -13,26 +13,78 @@
 */
 @font-face{ font-family:light;		src: url(https://eliteness.network/fonts/Roboto/Roboto-Light.ttf);}
 @font-face{ font-family:regular;	src: url(https://eliteness.network/fonts/Roboto/Roboto-Regular.ttf);}
+@font-face{ font-family:bold;		src: url(https://eliteness.network/fonts/Roboto/Roboto-Bold.ttf);}
 
 html{
-  background-size: 100%;
-  background-attachment: fixed;
-  color:#fff;
-  /*text-shadow: 2px 2px 2px #000;*/
-  background-image: linear-gradient( 45deg, black, #0007);
+	background-size: 100%;
+	background-attachment: fixed;
+	color:#fff;
+	/*text-shadow: 2px 2px 2px #000;*/
+	background-image: linear-gradient( 45deg, black, #0007);
 	background-color:#01011d;
 	background-image:radial-gradient(at 70% 5%,rgba(6,101,216,.16) 0,transparent 50%);
 	background-color:#01011d;
 	background-image:radial-gradient(at 30% 5%,rgba(16,201,255,.36) 0,transparent 50%);
 	background-attachment: fixed;
 	background-position: cover;
-
+}
+body {
+	margin:0;
 }
 * {
-  scroll-behavior: smooth !important;
-  font-family: regular;
-  transition: background-size 0.5s;
-  color:#fff;
+	scroll-behavior: smooth !important;
+	font-family: regular;
+	transition: background-size 0.5s;
+}
+
+.topnav {
+	display:grid;
+	grid-template-columns:auto;
+	margin:0;
+	padding:2vh 1vw;
+	position: sticky;
+	top: 0;
+	background:linear-gradient(to bottom, rgba(0,0,16,0.8), rgba(0,19,55,0.8));
+	z-index:0;
+}
+.topnav div:first-child {
+	font-size: 2em;
+	font-family: light;
+}
+.topnav div:nth-child(2) p {
+	text-align: left;
+	margin:auto 1vw;
+}
+.topnav a {
+	font-family: light;
+	text-decoration: none;
+	color: white;
+}
+
+@media(min-width:641px) {
+	.topnav {
+		display:grid;
+		grid-template-columns:auto max-content;
+	}
+
+	.amount-sold input, .amount-bought input {
+		font-size: 2em;
+	}
+
+	.amount-sold b, .amount-bought b {
+		font-family: regular;
+	}
+
+	.mechanism .input-amount img.bigthumb {
+		width: 100px;
+		height: 100px;
+	}
+	.subnav {
+		grid-template-columns:auto auto max-content auto auto;
+	}
+	.subnav-link {
+		margin: -2px 2px;
+	}
 }
 
 a {
@@ -41,11 +93,11 @@ a {
 }
 
 h1 {
-  font-size:1.5em;
+  font-size:1em;
 }
 @media(min-width:641px) {
   h1 {
-    font-size:2.5em;
+    font-size:1em;
   }
 }
 .social {
@@ -57,8 +109,9 @@ h1 {
 }
 
 .cat-h2 {
-	font-size:2.25em;
-	margin-left: 5px;
+	font-size:1em;
+	margin-left: 10px;
+	font-family: ;
 }
 
 /************* NOTIFS ****************/
@@ -122,11 +175,11 @@ h1 {
 /**************** TILES ********************/
 
 .subhead-small {
-  font-size:1em;
+  font-size:0.8em;
   color:#999;
 }
 .subhead-big {
-  font-size:1.5em;
+  font-size:1em;
   color:#fff;
 }
 .wrapper-chains img {
@@ -134,29 +187,37 @@ h1 {
 }
 .wrapper-tiles {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 }
 
+.wrapper-tile * {
+	word-break: break-word;
+}
 .wrapper-tile {
   background: rgba(0,0,0,0.2);
   margin: 5px;
-  padding: 20px;
+  padding: 10px;
   text-align: left;
   border-radius: 10px;
 }
 .wrapper-tile img {
-  vertical-align:bottom;
-  height:48px;
+  vertical-align: bottom;
+  height: 38px;
 }
 .wrapper-tile-title {
   display: grid;
   grid-template-columns: 50px auto;
 }
 .wrapper-tile-title div {
-  margin-left: 5px;
+  margin-left: 0px;
+}
+.wrapper-tile-title-noimg {
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .wrapper-desc {
-  font-size:0.85em;
-  display:none;
+  font-size:0.7em;
+  display:;
+  font-family: regular
 }

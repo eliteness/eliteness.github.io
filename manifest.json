@@ -8,9 +8,9 @@
   "background_color": "#001337",
   "icons": [
     {
-      "src": "https://ftm.guru/icons/ftm1337.svg",
-      "type": "image/svg+xml",
-      "sizes": "any"
+      "src": "https://ftm.guru/icons/256.png",
+      "type": "image/png",
+      "sizes": "256x256"
     }
   ]
 }

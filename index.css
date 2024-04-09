@@ -35,6 +35,8 @@ body {
 	scroll-behavior: smooth !important;
 	font-family: regular;
 	transition: background-size 0.5s;
+	scrollbar-color: #017 #001337;
+	scrollbar-width: thin;
 }
 
 .topnav {

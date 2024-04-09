@@ -9,7 +9,8 @@
   "icons": [
     {
       "src": "https://ftm.guru/icons/ftm1337.svng",
-      "type": "image/svg"
+      "type": "image/svg+xml",
+      "sizes": "any"
     }
   ]
 }

@@ -38,5 +38,21 @@
       ],
       "description": "Swap and Earn fees from EIII's zero-slippage AMM engine! "
     }
+  ],
+  "screenshots": [
+    {
+      "src": "https://ftm.guru/icons/ftmguru-landing.png",
+      "sizes": "any",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Guru Network DAO"
+    },
+    {
+      "src": "https://ftm.guru/icons/ftmguru-landing.png",
+      "sizes": "any",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Guru Network DAO"
+    }
   ]
 }

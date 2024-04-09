@@ -17,13 +17,25 @@
     {
       "name": "eTHENA",
       "url": "./ethena",
-      "icons": [ {"src":"https://ftm.guru/icons/ethena.png", "type": "image/png", "sizes":"any"} ],
+      "icons": [
+        {
+          "src": "https://ftm.guru/icons/ethena.png",
+          "type": "image/png",
+          "sizes": "any"
+        }
+      ],
       "description": "Earn BNB with eTHENA! veTHE Liquid Wrapper & Vote Optimizer"
     },
     {
       "name": "E3 DEX",
       "url": "./e3",
-      "icons": [ {"src":"https://ftm.guru/icons/e3.png", "type": "image/png", "sizes":"any"} ],
+      "icons": [
+        {
+          "src": "https://ftm.guru/icons/e3.png",
+          "type": "image/png",
+          "sizes": "any"
+        }
+      ],
       "description": "Swap and Earn fees from EIII's zero-slippage AMM engine! "
     }
   ]

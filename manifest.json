@@ -1,0 +1,16 @@
+{
+  "name": "Elite App",
+  "short_name": "Eliteness",
+  "description": "Dapp Directory of Eliteness.Network",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#001337",
+  "icons": [
+    {
+      "src": "https://ftm.guru/icons/64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    }
+  ]
+}

@@ -10,10 +10,14 @@
 
 @font-face{ font-family:light;src: url(https://ftm.guru/font/light.ttf);}
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-*/
+
 @font-face{ font-family:light;		src: url(https://eliteness.network/fonts/Roboto/Roboto-Light.ttf);}
 @font-face{ font-family:regular;	src: url(https://eliteness.network/fonts/Roboto/Roboto-Regular.ttf);}
 @font-face{ font-family:bold;		src: url(https://eliteness.network/fonts/Roboto/Roboto-Bold.ttf);}
+*/
+@font-face{ font-family:light;		src: url(https://eliteness.network/fonts/neue-haas-grotesk/NeueHaasDisplayLight.ttf);}
+@font-face{ font-family:regular;	src: url(https://eliteness.network/fonts/neue-haas-grotesk/NeueHaasDisplayRoman.ttf);}
+@font-face{ font-family:bold;		src: url(https://eliteness.network/fonts/neue-haas-grotesk/NeueHaasDisplayBold.ttf);}
 
 html{
 	background-size: 100%;
@@ -37,6 +41,7 @@ body {
 	transition: background-size 0.5s;
 	scrollbar-color: #017 #001337;
 	scrollbar-width: thin;
+  word-spacing: 0.05em;
 }
 
 .topnav {
@@ -88,7 +93,9 @@ body {
 		margin: -2px 2px;
 	}
 }
-
+b {
+  font-family: bold;
+}
 a {
   text-decoration-line: none;
   color: initial;
@@ -189,7 +196,7 @@ h1 {
 }
 .wrapper-tiles {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .wrapper-tile * {
@@ -212,6 +219,7 @@ h1 {
 }
 .wrapper-tile-title div {
   margin-left: 0px;
+  font-family: bold;
 }
 .wrapper-tile-title-noimg {
   display: grid;
@@ -219,7 +227,7 @@ h1 {
 }
 
 .wrapper-desc {
-  font-size:0.7em;
+  font-size:0.8em;
   display:;
-  font-family: regular
+  font-family: regular;
 }

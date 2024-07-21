@@ -39,9 +39,9 @@ body {
 	scroll-behavior: smooth !important;
 	font-family: regular;
 	transition: background-size 0.5s;
-	scrollbar-color: #017 #001337;
+	scrollbar-color: #02f	 #001337;
 	scrollbar-width: thin;
-  word-spacing: 0.05em;
+	word-spacing: 0.05em;
 }
 
 .topnav {
@@ -201,6 +201,12 @@ h1 {
 
 .wrapper-tile * {
 	word-break: break-word;
+}
+.wrapper-tile:hover{
+  box-shadow: 0px 0px 5px 5px #fff;
+  cursor:pointer;
+  position: relative;
+  top:10px
 }
 .wrapper-tile {
   background: rgba(0,0,0,0.2);

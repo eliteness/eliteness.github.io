@@ -272,14 +272,17 @@
       "tiles": [
         {
           "name": "3ur0",
+          "image": "https://ftm.guru/icons/1f914.svg",
           "background": "linear-gradient(45deg,#999,#555)"
         },
         {
           "name": "Buckets",
+          "image": "https://ftm.guru/icons/1f914.svg",
           "background": "linear-gradient(45deg,#999,#555)"
         },
         {
           "name": "Optional",
+          "image": "https://ftm.guru/icons/1f914.svg",
           "background": "linear-gradient(45deg,#999,#555)"
         }
       ]

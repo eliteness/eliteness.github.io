@@ -1,25 +1,76 @@
 function $(_) {return document.getElementById(_);}
 
 const DATA = {
-  "categories": [
+  "categories": [,
+    {
+      "title": "$ELITE & related",
+      "tiles": [
+        {
+          "name": "Eliteness Bridge",
+          "description": "Move Eliteness Omnichain tokens across chains!",
+          "url": "https://eliteness.network/elite",
+          "image": "https://ftm.guru/icons/1f309.svg",
+          "background": "linear-gradient(45deg,#100,#011)",
+          "subicons" : ["ftm", "base", "arb1","sonic", "bsc", "blast", "bera", "eth", "op", "avax", "pol"],
+        },
+        {
+          "name": "Convert Orignal ELITE to new ELITE",
+          "description": "Upgrade your original ELITE on Fantom Opera to the new Omnichain ELITE token.",
+          "url": "https://eliteness.network/e3/250-10",
+          "image": "https://ftm.guru/icons/eliteness.png",
+          "background": "linear-gradient(45deg,#000,#012)",
+          "subicons": ["ftm"]
+        },
+        {
+          "name": "Omnichain Explorer",
+          "description": "Track all Tokens running on the ElitenessOFT standard.",
+          "url": "https://layerzeroscan.com/protocol/eliteness-network",
+          "image": "https://ftm.guru/icons/1f309.svg",
+          "background": "linear-gradient(225deg,#100,#011)",
+        },
+        {
+          "name": "Treasury Tracker!",
+          "description": "In-depth reports on treasury allocation & PnL charts.",
+          "url": "https://eliteness.network/treasury",
+          "image": "https://ftm.guru/icons/1f451.svg",
+          "background": "linear-gradient(45deg, black, royalblue)",
+        },
+        {
+          "name": "Explore all User Deposits",
+          "description": "Discover opportunieis and people using Eliteness Network.",
+          "url": "https://debank.com/protocols?q=eliteness",
+          "image": "https://ftm.guru/icons/debank.svg",
+          "background": "linear-gradient(45deg,#721,#012)",
+          "subicons": ["ftm","sonic","bsc","arb1","base","avax","pol"]
+        },
+      ]
+    },
     {
       "title": "Decentralized Exchanges",
       "tiles": [
         {
           "name": "E3",
-          "description": "Zero-Slippage Liquidity Book AMM Engine with User-Customizable Liquidity Shape creator.",
+          "description": "Zero-Slippage Liquidity Book AMM Engine with User-Customizable Liquidity Shape creator. Suitable for professional market makers seeking highest Capital Efficiency & fine-grained Order-Book control.",
           "url": "https://eliteness.network/e3",
           "image": "https://ftm.guru/icons/e3.png",
           "background": "linear-gradient(45deg, #07f7,#005)",
-          "chains" : ["ftm", "base", "arb1"],
+          "subicons" : ["ftm", "base", "arb1"],
         },
         {
-          "name": "Thick",
-          "description": "Uniswap V4 inspired V3 Concentrated Liquidity fork pioneering Fee-Synthesizers as embedded hooks.",
+          "name": "THICK",
+          "description": "Thick introduced the concept of Protocol-Agnostic Concentrated Liquidity into DeFi, empowering it to Distribute shared, Flywheeled self-incentivising Liquidity across a multitude of plugged-in protocols.",
           "url": "https://eliteness.network/thick",
           "image": "https://ftm.guru/icons/thick.png",
           "background": "linear-gradient(45deg, #002,#555)",
-          "chains" : ["ftm", "base", "arb1"],
+          "subicons" : ["ftm", "base", "arb1","sonic"],
+        },
+        {
+          "name": "2THICK",
+          "description": "The Second iteration of our THICK DEX with Tick-Spacing based pool determination as well as automatable Dynamic Fees configurable for each pool individually to raise Capital Efficiency!",
+          "url": "https://eliteness.network/thick",
+          "image": "https://ftm.guru/icons/thick.png",
+          "background": "linear-gradient(45deg, #002,#555)",
+          "subicons" : ["ftm", "base", "arb1","sonic"],
         },
         {
           "name": "V.A.X.",
@@ -27,7 +78,7 @@ const DATA = {
           "url": "https://vax.mtv.guru",
           "image": "https://ftm.guru/icons/vax.svg",
           "background": "linear-gradient(135deg, #0033,#f03)",
-          "chains" : ["mtv"],
+          "subicons" : ["mtv"],
         },
         {
           "name": "ABcDeFx.",
@@ -35,7 +86,7 @@ const DATA = {
           "url": "https://abcdefx.eliteness.network",
           "image": "https://ftm.guru/icons/abcdefx.png",
           "background": "linear-gradient(135deg, black,blue)",
-          "chains" : ["ftm", "ech", "kcc", "mtv", "kava", "sonic"],
+          "subicons" : ["ftm", "ech", "kcc", "mtv", "kava", "sonic"],
         },
         {
           "name": "Dexchelon",
@@ -43,7 +94,7 @@ const DATA = {
           "url": "https://ech.eliteness.network/dexch",
           "image": "https://ftm.guru/icons/ech.svg",
           "background": "linear-gradient(135deg, #0e0e32,#0d7676)",
-          "chains" : ["ech"],
+          "subicons" : ["ech"],
         },
         {
           "name": "Solidly Extended",
@@ -51,7 +102,7 @@ const DATA = {
           "url": "https://ftm.guru/solidly",
           "image": "https://ftm.guru/icons/solidly.svg",
           "background": "linear-gradient(315deg, #0e0e32,#0d7676)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         },
         {
           "name": "Equalizer Fantom Mirror",
@@ -59,7 +110,7 @@ const DATA = {
           "url": "https://equal.eliteness.network",
           "image": "https://ftm.guru/icons/equal.png",
           "background": "linear-gradient(15deg, #01011d,#076bd865)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         },
         {
           "name": "Equity Fantom Mirror",
@@ -67,7 +118,7 @@ const DATA = {
           "url": "https://equity.eliteness.network",
           "image": "https://ftm.guru/icons/equity.png",
           "background": "linear-gradient(15deg, #01011d,#076bd865)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         },
         {
           "name": "Equalizer Base Mirror",
@@ -75,7 +126,7 @@ const DATA = {
           "url": "https://equal.eliteness.network",
           "image": "https://ftm.guru/icons/scale.png",
           "background": "linear-gradient(15deg, #01011d,#076bd865)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         }
       ]
     },
@@ -88,7 +139,7 @@ const DATA = {
           "url": "https://eliteness.network/ethena",
           "image": "https://ftm.guru/icons/ethena.png",
           "background": "linear-gradient(45deg, #f05,#a0f)",
-          "chains" : ["bsc"],
+          "subicons" : ["bsc"],
         },
         {
           "name": "El Ramses",
@@ -96,7 +147,7 @@ const DATA = {
           "url": "https://eliteness.network/el-ramses",
           "image": "https://ftm.guru/icons/elr.png",
           "background": "linear-gradient(225deg, goldenrod,brown)",
-          "chains" : ["arb1"],
+          "subicons" : ["arb1"],
         },
         {
           "name": "El Chronos",
@@ -104,7 +155,7 @@ const DATA = {
           "url": "https://eliteness.network/el-chronos",
           "image": "https://ftm.guru/icons/chr.png",
           "background": "linear-gradient(225deg, #356ff4,purple)",
-          "chains" : ["arb1"],
+          "subicons" : ["arb1"],
         },
         {
           "name": "El Retro",
@@ -112,7 +163,7 @@ const DATA = {
           "url": "https://eliteness.network/el-retro",
           "image": "https://ftm.guru/icons/elretro.png",
           "background": "linear-gradient(135deg,  black,gray)",
-          "chains" : ["pol"],
+          "subicons" : ["pol"],
         },
         {
           "name": "El Snek",
@@ -120,7 +171,7 @@ const DATA = {
           "url": "https://eliteness.network/el-snek",
           "image": "https://ftm.guru/icons/elsnek.png",
           "background": "linear-gradient(315deg, #560f5c, #b60f00)",
-          "chains" : ["avax"],
+          "subicons" : ["avax"],
         }
       ]
     },
@@ -133,7 +184,7 @@ const DATA = {
           "url": "https://eliteness.network/elma",
           "image": "https://ftm.guru/icons/bank.svg",
           "background": "linear-gradient(135deg,#777,#000)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         },
         {
           "name": "venft.app",
@@ -141,7 +192,7 @@ const DATA = {
           "url": "https://venft.app/retro",
           "image": "https://ftm.guru/icons/solidly.svg",
           "background": "linear-gradient(#604, #070a22)",
-          "chains" : ["bsc", "pol"],
+          "subicons" : ["bsc", "pol"],
         }
       ]
     },
@@ -154,7 +205,7 @@ const DATA = {
           "url": "https://eliteness.network/fertilizer",
           "image": "https://ftm.guru/icons/1f1eb.svg",
           "background": "linear-gradient(235deg, navy, black)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         },
         {
           "name": "Fertilizer v2",
@@ -162,7 +213,7 @@ const DATA = {
           "url": "https://eliteness.network/fertilizer/base",
           "image": "https://ftm.guru/icons/1f1eb.svg",
           "background": "linear-gradient(235deg, black, navy)",
-          "chains" : ["base"],
+          "subicons" : ["base"],
         },
         {
           "name": "eliteMorphexMLP",
@@ -170,7 +221,7 @@ const DATA = {
           "url": "https://eliteness.network/elite-morphex-mlp",
           "image": "https://ftm.guru/icons/eliteMorphexMLP.png",
           "background": "linear-gradient(-45deg, #112247,#110000)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         },
         {
           "name": "Lite Farmlands",
@@ -178,7 +229,7 @@ const DATA = {
           "url": "https://mtv.guru/LF",
           "image": "https://ftm.guru/icons/farmer.svg",
           "background": "linear-gradient(235deg, #0f7,#105)",
-          "chains" : ["ftm", "mtv"],
+          "subicons" : ["ftm", "mtv"],
         },
         {
           "name": "XELITE",
@@ -186,7 +237,7 @@ const DATA = {
           "url": "https://eliteness.network/xelite",
           "image": "https://ftm.guru/icons/64.png",
           "background": "linear-gradient(45deg, #fff7,#fff3)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         },
         {
           "name": "Kompound",
@@ -194,7 +245,7 @@ const DATA = {
           "url": "https://ftm.guru/GRAIN",
           "image": "https://ftm.guru/icons/1f33e.svg",
           "background": "linear-gradient(45deg, brown, #da2)",
-          "chains" : ["ftm", "metis", "ech", "mtv"],
+          "subicons" : ["ftm", "metis", "ech", "mtv"],
         },
         {
           "name": "Yield State",
@@ -202,7 +253,7 @@ const DATA = {
           "url": "https://ftm.guru/YS",
           "image": "https://ftm.guru/icons/trident.svg",
           "background": "linear-gradient(235deg, #e900f1,#0a090a)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         }
       ]
     },
@@ -215,7 +266,7 @@ const DATA = {
           "url": "https://eliteness.network/mftm",
           "image": "https://ftm.guru/icons/mftm.png",
           "background": "linear-gradient(45deg,#112,#345)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         },
         {
           "name": "Lockless SWKAVA",
@@ -223,7 +274,7 @@ const DATA = {
           "url": "https://eliteness.network/lockless",
           "image": "https://ftm.guru/icons/swkava.svg",
           "background": "linear-gradient(45deg,#320000,red)",
-          "chains" : ["kava"],
+          "subicons" : ["kava"],
         },
         {
           "name": "Lockless SWECH",
@@ -231,7 +282,7 @@ const DATA = {
           "url": "https://ech.eliteness.network/lockless",
           "image": "https://ftm.guru/icons/lockless.svg",
           "background": "linear-gradient(45deg, #360036, #b0f)",
-          "chains" : ["ech"],
+          "subicons" : ["ech"],
         }
       ]
     },
@@ -244,7 +295,7 @@ const DATA = {
           "url": "https://eliteness.network/elocks",
           "image": "https://ftm.guru/icons/1f510.svg",
           "background": "linear-gradient(-180deg,#00F,#00f7)",
-          "chains" : ["ftm", "base"],
+          "subicons" : ["ftm", "base"],
         },
         {
           "name": "VeNFT A.M.M.",
@@ -252,7 +303,7 @@ const DATA = {
           "url": "https://ftm.guru/equalizer",
           "image": "https://ftm.guru/icons/equal.png",
           "background": "linear-gradient(135deg, #77f3, #7ff7)",
-          "chains" : ["ftm", "base"],
+          "subicons" : ["ftm", "base"],
         },
         {
           "name": "veLiquidity.xyz",
@@ -260,7 +311,7 @@ const DATA = {
           "url": "https://veLiquidity.xyz",
           "image": "https://ftm.guru/icons/veliquidity.svg",
           "background": "linear-gradient(135deg, #0d0f15, #1d2432)",
-          "chains" : ["ftm", "base"],
+          "subicons" : ["ftm", "base"],
         }
       ]
     },
@@ -273,7 +324,7 @@ const DATA = {
           "url": "https://ftm.guru/degam",
           "image": "https://ftm.guru/icons/m2.png",
           "background": "linear-gradient(45deg, #000, #022627)",
-          "chains" : ["ftm"],
+          "subicons" : ["ftm"],
         },
         {
           "name": "Kucino Casino",
@@ -281,8 +332,8 @@ const DATA = {
           "url": "https://kcc.eliteness.network/kucino",
           "image": "https://ftm.guru/icons/kucino.png",
           "background": "linear-gradient(to bottom,rgba(0,255,127,1),rgba(1,240,255,1))",
-          "color": "#000 !important",
-          "chains" : ["kcc"],
+          "color": "#000",
+          "subicons" : ["kcc"],
         }
       ]
     },
@@ -291,12 +342,14 @@ const DATA = {
       "tiles": [
         {
           "name": "Compare Solidly Forks",
+          "description": "In-depth side-by-side comparision of the Top Solidly Forks",
           "url": "https://eliteness.network/compare-solidly",
           "image": "https://ftm.guru/icons/solidly.svg",
           "background": "linear-gradient(45deg,#320000,red)"
         },
         {
           "name": "Compare Liquid Wrappers",
+          "description": "Exit Liquidity Charts for Liquid Wrappers for Solidly Forks!",
           "url": "https://eliteness.network/compare-wrappers",
           "image": "https://ftm.guru/icons/solidly.svg",
           "background": "linear-gradient(45deg,#320000,red)"
@@ -308,14 +361,17 @@ const DATA = {
       "tiles": [
         {
           "name": "3ur0",
+          "image": "https://ftm.guru/icons/1f914.svg",
           "background": "linear-gradient(45deg,#999,#555)"
         },
         {
           "name": "Buckets",
+          "image": "https://ftm.guru/icons/1f914.svg",
           "background": "linear-gradient(45deg,#999,#555)"
         },
         {
           "name": "Optional",
+          "image": "https://ftm.guru/icons/1f914.svg",
           "background": "linear-gradient(45deg,#999,#555)"
         }
       ]
@@ -327,31 +383,35 @@ const DATA = {
           "name": "Explore more on our previous homepage!",
           "url": "https://eliteness.network/old",
           "image": "https://ftm.guru/icons/64.png",
-          "background": "linear-gradient(45deg,#0af,#0fa)"
+          "background": "linear-gradient(45deg,#0af,#0fa)",
+          "color": "#000",
         },
         {
           "name": "Deep dive into our Documentation Site to learn more!",
           "url": "https://ftm.guru/docs",
           "image": "https://ftm.guru/icons/docs.svg",
-          "background": "linear-gradient(45deg,#000,#012)"
+          "background": "linear-gradient(45deg,#000,#012)",
         },
         {
           "name": "Treasury Tracker!",
           "url": "https://eliteness.network/treasury",
           "image": "https://ftm.guru/icons/1f451.svg",
-          "background": "linear-gradient(45deg,#fff,#7af)"
+          "background": "linear-gradient(45deg,#fff,#7af)",
+          "color": "#000",
         },
         {
           "name": "Interact with our community on Discord!",
           "url": "https://discord.gg/QpyfMarNrV",
           "image": "https://ftm.guru/icons/discord.svg",
-          "background": "linear-gradient(45deg,#fff,#5865f2)"
+          "background": "linear-gradient(45deg,#fff,#5865f2)",
+          "color": "#000",
         },
         {
           "name": "Follow our latest adventures on Twitter!",
           "url": "https://twitter.com/ftm1337",
           "image": "https://ftm.guru/icons/twitter.svg",
-          "background": "linear-gradient(45deg,#fff,#7af)"
+          "background": "linear-gradient(45deg,#fff,#7af)",
+          "color": "#000",
         }
       ]
     }
@@ -361,47 +421,25 @@ const DATA = {
 
 
 
-const CHAINS = {
+const ICONS = {
   //[
-	"eth" : {
-		"image" : "https://ftm.guru/icons/eth.svg"
-	},
-	"bsc" : {
-		"image" : "https://ftm.guru/icons/bnb.svg"
-	},
-	"arb1" : {
-		"image" : "https://ftm.guru/icons/arb1.svg"
-	},
-	"ftm" : {
-		"image" : "https://ftm.guru/icons/ftm.svg"
-	},
-	"ech" : {
-		"image" : "https://ftm.guru/icons/ech.svg"
-	},
-	"kava" : {
-		"image" : "https://ftm.guru/icons/kava.svg"
-	},
-	"mtv" : {
-		"image" : "https://ftm.guru/icons/mtv.png"
-	},
-	"kcc" : {
-		"image" : "https://ftm.guru/icons/kcs.svg"
-	},
-	"sonic" : {
-		"image" : "https://ftm.guru/icons/sonic.png"
-	},
-	"pol" : {
-		"image" : "https://ftm.guru/icons/matic.svg"
-	},
-	"avax" : {
-		"image" : "https://ftm.guru/icons/avax.svg"
-	},
-	"base" : {
-		"image" : "https://ftm.guru/icons/base.svg"
-	},
-	"metis" : {
-		"image" : "https://ftm.guru/icons/metis.svg"
-	},
+	"eth" : "https://ftm.guru/icons/eth.svg",
+	"bsc" : "https://ftm.guru/icons/bnb.svg",
+	"arb1" : "https://ftm.guru/icons/arb1.svg",
+	"ftm" : "https://ftm.guru/icons/ftm.svg",
+	"ech" : "https://ftm.guru/icons/ech.svg",
+	"kava" : "https://ftm.guru/icons/kava.svg",
+	"mtv" : "https://ftm.guru/icons/mtv.png",
+	"kcc" : "https://ftm.guru/icons/kcs.svg",
+	"sonic" : "https://ftm.guru/icons/sonic.png",
+	"pol" : "https://ftm.guru/icons/matic.svg",
+	"avax" : "https://ftm.guru/icons/avax.svg",
+	"base" : "https://ftm.guru/icons/base.svg",
+	"metis" : "https://ftm.guru/icons/metis.svg",
+	"blast" : "https://ftm.guru/icons/blast.svg",
+	"bera" : "https://ftm.guru/icons/bera.svg",
+	"op" : "https://ftm.guru/icons/op.png",
+	"linea" : "https://ftm.guru/icons/linea.png"
   //]
 }
 
@@ -452,15 +490,15 @@ function paintTiles(data) {
       }
 
       const titleText = document.createElement('div');
-      titleText.innerHTML = `<div class="subhead-big" style="color:${tileColor};">${tile.name}</div>`;
+      titleText.innerHTML = tile.name ? `<div class="subhead-big" style="color:${tileColor};">${tile.name}</div>` : "";
 
 
 	  const chainsWrapper = document.createElement('div');
-      if(tile.chains) {
+      if(tile.subicons) {
 		chainsWrapper.className = 'subhead-small wrapper-chains';
-        tile.chains.forEach(chain => {
+        tile.subicons.forEach(i => {
           const chainImg = document.createElement('img');
-          chainImg.src = CHAINS[chain].image;
+          chainImg.src = ICONS[i];
           chainsWrapper.appendChild(chainImg);
         });
         titleText.appendChild(chainsWrapper);

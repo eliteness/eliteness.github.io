@@ -8,7 +8,7 @@ const DATA = {
         {
           "name": "Eliteness Bridge",
           "description": "Move Eliteness Omnichain tokens across chains!",
-          "url": "https://eliteness.network/elite",
+          "url": "https://eliteness.network/bridge/elite",
           "image": "https://ftm.guru/icons/1f309.svg",
           "background": "linear-gradient(45deg,#100,#011)",
           "subicons" : ["ftm", "base", "arb1","sonic", "bsc", "blast", "bera", "eth", "op", "avax", "pol"],

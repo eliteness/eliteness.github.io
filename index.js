@@ -11,7 +11,7 @@ const DATA = {
           "url": "https://eliteness.network/bridge/elite",
           "image": "https://ftm.guru/icons/1f309.svg",
           "background": "linear-gradient(45deg,#100,#011)",
-          "subicons" : ["ftm", "base", "arb1","sonic", "bsc", "blast", "bera", "eth", "op", "avax", "pol"],
+          "subicons" : ["ftm", "base", "arb1","sonic", "bsc", "blast", "bera", "eth", "optimism", "avax", "pol"],
         },
         {
           "name": "Convert Orignal ELITE to new ELITE",
@@ -438,7 +438,7 @@ const ICONS = {
 	"metis" : "https://ftm.guru/icons/metis.svg",
 	"blast" : "https://ftm.guru/icons/blast.svg",
 	"bera" : "https://ftm.guru/icons/bera.svg",
-	"op" : "https://ftm.guru/icons/op.png",
+	"optimism" : "https://ftm.guru/icons/optimism.svg",
 	"linea" : "https://ftm.guru/icons/linea.png"
   //]
 }

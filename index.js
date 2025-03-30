@@ -7,7 +7,7 @@ const DATA = {
       "tiles": [
         {
           "name": "Eliteness Bridge",
-          "description": "Move Eliteness Omnichain tokens across chains!",
+          "description": "Move any ElitenessOFT standard based tokens across chains!",
           "url": "https://eliteness.network/bridge/elite",
           "image": "https://ftm.guru/icons/1f309.svg",
           "background": "linear-gradient(45deg,#100,#011)",
@@ -226,7 +226,7 @@ const DATA = {
         {
           "name": "Lite Farmlands",
           "description": "Farming-as-a-Service (FaaS) platform enabling anyone to create a Farming or Staking platform for their assets.",
-          "url": "https://mtv.guru/LF",
+          "url": "https://eliteness.network/farmlands",
           "image": "https://ftm.guru/icons/farmer.svg",
           "background": "linear-gradient(235deg, #0f7,#105)",
           "subicons" : ["ftm", "mtv"],
@@ -446,11 +446,15 @@ const ICONS = {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    dexstats();
     paintTiles(DATA);
+    dexstats();
 });
 
 async function dexstats() {
+	console.log("ll")
+	llama = await (await fetch("https://api.llama.fi/tvl/guru-network-dao")).json();
+	$("topstat-tvl").innerHTML = "$" + llama.toLocaleString(undefined,{maximumFractionDigits:0}) + " in TVL";
+
 	return;
 }
 

@@ -46,6 +46,67 @@ const DATA = {
       ]
     },
     {
+      "title": "Real Yield Tokens",
+      "tiles": [
+        {
+          "name": "eTHENA",
+          "description": "Liquid Wrapper & Vote Optimizer for Thena.fi's governance NFTs. <br><b>Stake ETHENA to Earn BNB.</b>",
+          "url": "https://eliteness.network/ethena",
+          "image": "https://ftm.guru/icons/ethena.png",
+          "background": "linear-gradient(45deg, #f05,#a0f)",
+          "subicons" : ["bsc"],
+        },
+        {
+          "name": "eliteRingsScUSD",
+          "description": "Liquid Wrappers & Vote Optimizer for Ringss.Money's governance NFTs. <br><b>Stake eliteRingsScUSD to Earn USDC.</b>",
+          "url": "https://eliteness.network/rings",
+          "image": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/128x128/0xd4aa386bfceeedd9de0875b3ba07f51808592e22.png",
+          "background": "linear-gradient(45deg, #f057,#a0f)",
+          "subicons" : ["sonic"],
+        },
+        {
+          "name": "El Ramses",
+          "description": "Liquid Wrapper and Vote Optimizer for Ramses.Exchange's governance NFTs. <br><b>Stake ELR to Earn ETH.</b>",
+          "url": "https://eliteness.network/el-ramses",
+          "image": "https://ftm.guru/icons/elr.png",
+          "background": "linear-gradient(225deg, goldenrod,brown)",
+          "subicons" : ["arb1"],
+        },
+        {
+          "name": "El Chronos",
+          "description": "Liquid Wrapper and Vote Optimizer for Chronos.Finance's governance NFTs. <br><b>Stake elCHR to Earn ETH.</b>",
+          "url": "https://eliteness.network/el-chronos",
+          "image": "https://ftm.guru/icons/chr.png",
+          "background": "linear-gradient(225deg, #356ff4,purple)",
+          "subicons" : ["arb1"],
+        },
+        {
+          "name": "eliteFNX",
+          "description": "Liquid Wrapper and Vote Optimizer for Fenix Finance's governance NFTs. <br><b>Stake eliteFNX LP to Earn FNX.</b>",
+          "url": "https://www.fenixfinance.io/liquidity/deposit?type=V2&isStable=0&token0=0x4300000000000000000000000000000000000004&token1=0xd600ec98cf6418c50ee051ace53219d95aeaa134",
+          "image": "https://www.fenixfinance.io/static/images/tokens/elFNX.svg",
+          "background": "linear-gradient(225deg, red, orange, blue ,purple)",
+          "subicons" : ["blast"],
+        },
+        {
+          "name": "El Retro",
+          "description": "Liquid Wrapper and Vote Optimizer for Retro.Finance's governance NFTs. <br><b>Stake elRETRO to Earn MATIC.</b>",
+          "url": "https://eliteness.network/el-retro",
+          "image": "https://ftm.guru/icons/elretro.png",
+          "background": "linear-gradient(135deg,  black,gray)",
+          "subicons" : ["pol"],
+        },
+        {
+          "name": "El Snek",
+          "description": "Liquid Wrapper and Vote Optimizer for Snek.Finance's governance NFTs. <br><b>Stake elSNEK to Earn AVAX.</b>",
+          "url": "https://eliteness.network/el-snek",
+          "image": "https://ftm.guru/icons/elsnek.png",
+          "background": "linear-gradient(315deg, #560f5c, #b60f00)",
+          "subicons" : ["avax"],
+        }
+      ]
+    },
+    {
       "title": "Decentralized Exchanges",
       "tiles": [
         {
@@ -127,51 +188,6 @@ const DATA = {
           "image": "https://ftm.guru/icons/scale.png",
           "background": "linear-gradient(15deg, #01011d,#076bd865)",
           "subicons" : ["ftm"],
-        }
-      ]
-    },
-    {
-      "title": "Real Yield Tokens",
-      "tiles": [
-        {
-          "name": "eTHENA",
-          "description": "Liquid Wrapper & Vote Optimizer for Thena.fi's governance NFTs. <br><b>Stake ETHENA to Earn BNB.</b>",
-          "url": "https://eliteness.network/ethena",
-          "image": "https://ftm.guru/icons/ethena.png",
-          "background": "linear-gradient(45deg, #f05,#a0f)",
-          "subicons" : ["bsc"],
-        },
-        {
-          "name": "El Ramses",
-          "description": "Liquid Wrapper and Vote Optimizer for Ramses.Exchange's governance NFTs. <br><b>Stake ELR to Earn ETH.</b>",
-          "url": "https://eliteness.network/el-ramses",
-          "image": "https://ftm.guru/icons/elr.png",
-          "background": "linear-gradient(225deg, goldenrod,brown)",
-          "subicons" : ["arb1"],
-        },
-        {
-          "name": "El Chronos",
-          "description": "Liquid Wrapper and Vote Optimizer for Chronos.Finance's governance NFTs. <br><b>Stake elCHR to Earn ETH.</b>",
-          "url": "https://eliteness.network/el-chronos",
-          "image": "https://ftm.guru/icons/chr.png",
-          "background": "linear-gradient(225deg, #356ff4,purple)",
-          "subicons" : ["arb1"],
-        },
-        {
-          "name": "El Retro",
-          "description": "Liquid Wrapper and Vote Optimizer for Retro.Finance's governance NFTs. <br><b>Stake elRETRO to Earn MATIC.</b>",
-          "url": "https://eliteness.network/el-retro",
-          "image": "https://ftm.guru/icons/elretro.png",
-          "background": "linear-gradient(135deg,  black,gray)",
-          "subicons" : ["pol"],
-        },
-        {
-          "name": "El Snek",
-          "description": "Liquid Wrapper and Vote Optimizer for Snek.Finance's governance NFTs. <br><b>Stake elSNEK to Earn AVAX.</b>",
-          "url": "https://eliteness.network/el-snek",
-          "image": "https://ftm.guru/icons/elsnek.png",
-          "background": "linear-gradient(315deg, #560f5c, #b60f00)",
-          "subicons" : ["avax"],
         }
       ]
     },

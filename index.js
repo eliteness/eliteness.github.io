@@ -136,7 +136,7 @@ const DATA = {
         {
           "name": "V.A.X.",
           "description": "<b>V</b>alue <b>A</b>dded E<b>x</b>change introduces Solidly-like Fees-Liquidity separations into a Sushi-like core.",
-          "url": "https://vax.mtv.guru",
+          "url": "https://vax.eliteness.network",
           "image": "https://ftm.guru/icons/vax.svg",
           "background": "linear-gradient(135deg, #0033,#f03)",
           "subicons" : ["mtv"],
@@ -203,9 +203,9 @@ const DATA = {
           "subicons" : ["ftm"],
         },
         {
-          "name": "venft.app",
-          "description": "<b>venft.app</b> was world's first Lending & Borrowing platform where users could take a loan against their veNFTs such as Thena's veTHE or Retro's veRETRO.",
-          "url": "https://venft.app/retro",
+          "name": "venft app",
+          "description": "<b>venft app</b> was world's first Lending & Borrowing platform where users could take a loan against their veNFTs such as Thena's veTHE or Retro's veRETRO.",
+          "url": "https://eliteness.network/venftapp/retro",
           "image": "https://ftm.guru/icons/solidly.svg",
           "background": "linear-gradient(#604, #070a22)",
           "subicons" : ["bsc", "pol"],

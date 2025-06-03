@@ -61,7 +61,7 @@ const DATA = {
           "description": "Liquid Wrappers & Vote Optimizer for Ringss.Money's governance NFTs. <br><b>Stake eliteRingsScUSD to Earn USDC.</b>",
           "url": "https://eliteness.network/rings",
           "image": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/128x128/0xd4aa386bfceeedd9de0875b3ba07f51808592e22.png",
-          "background": "linear-gradient(45deg, #f057,#a0f)",
+          "background": "linear-gradient(225deg, #356ff4,purple)",
           "subicons" : ["sonic"],
         },
         {
@@ -85,7 +85,7 @@ const DATA = {
           "description": "Liquid Wrapper and Vote Optimizer for Fenix Finance's governance NFTs. <br><b>Stake eliteFNX LP to Earn FNX.</b>",
           "url": "https://www.fenixfinance.io/liquidity/deposit?type=V2&isStable=0&token0=0x4300000000000000000000000000000000000004&token1=0xd600ec98cf6418c50ee051ace53219d95aeaa134",
           "image": "https://www.fenixfinance.io/static/images/tokens/elFNX.svg",
-          "background": "linear-gradient(225deg, red, orange, blue ,purple)",
+          "background": "linear-gradient(225deg, #f007, #f73a)",
           "subicons" : ["blast"],
         },
         {
@@ -215,6 +215,14 @@ const DATA = {
     {
       "title": "Yield Farming & Optimization",
       "tiles": [
+        {
+          "name": "ERC4626 App",
+          "description": "A universal UI to mint & redeem all ERC4626 assets on all chains!",
+          "url": "https://eliteness.network/erc4626",
+          "image": "https://ftm.guru/icons/erc4626.png",
+          "background": "linear-gradient(235deg, navy, black)",
+          "subicons" : [],
+        },
         {
           "name": "Fertilizer v1",
           "description": "Automatic Liquidity Management (ALM) Protocol with Advanced Dynamic Liquidity-Shape Management on Fantom.",

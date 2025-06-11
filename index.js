@@ -14,7 +14,7 @@ const DATA = {
           "subicons" : ["ftm", "base", "arb1","sonic", "bsc", "blast", "bera", "eth", "optimism", "avax", "pol"],
         },
         {
-          "name": "Convert Orignal ELITE to new ELITE",
+          "name": "Convert Original ELITE to new ELITE",
           "description": "Upgrade your original ELITE on Fantom Opera to the new Omnichain ELITE token.",
           "url": "https://eliteness.network/e3/250-10",
           "image": "https://ftm.guru/icons/eliteness.png",

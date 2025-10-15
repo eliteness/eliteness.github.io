@@ -50,17 +50,41 @@ const DATA = {
       "tiles": [
         {
           "name": "eTHENA",
-          "description": "Liquid Wrapper & Vote Optimizer for Thena.fi's governance NFTs. <br><b>Stake ETHENA to Earn BNB.</b>",
+          "description": "Liquid Wrapper & Vote Optimizer for Thena.fi's governance NFTs. <br><b>Stake eTHENA to Earn BNB.</b>",
           "url": "https://eliteness.network/ethena",
           "image": "https://ftm.guru/icons/ethena.png",
           "background": "linear-gradient(45deg, #f05,#a0f)",
           "subicons" : ["bsc"],
         },
         {
+          "name": "stakeTHENA",
+          "description": "Auto-compounding Staked eTHENA ERC4626 Vault. <br><b>Stake eTHENA to Earn eTHENA.</b>",
+          "url": "https://eliteness.network/ethena/vault",
+          "image": "https://ftm.guru/icons/ethena.png",
+          "background": "linear-gradient(45deg, #7037, #3077)",
+          "subicons" : ["bsc"],
+        },
+        {
           "name": "eliteRingsScUSD",
-          "description": "Liquid Wrappers & Vote Optimizer for Ringss.Money's governance NFTs. <br><b>Stake eliteRingsScUSD to Earn USDC.</b>",
-          "url": "https://eliteness.network/rings",
+          "description": "Liquid Wrappers & Vote Optimizer for Rings/Trevee's governance NFTs. <br><b>Use eliteRingsScUSD to Earn Rewards.</b>",
+          "url": "https://eliteness.network/rings/scusd",
           "image": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/128x128/0xd4aa386bfceeedd9de0875b3ba07f51808592e22.png",
+          "background": "linear-gradient(225deg, #356ff4,purple)",
+          "subicons" : ["sonic"],
+        },
+        {
+          "name": "wstkEliteRingsScUSD",
+          "description": "Auto-compounding Staked eliteRingsScUSD ERC4626 Vault. <br><b>Stake & Earn eliteRingsScUSD.</b>",
+          "url": "https://eliteness.network/rings/scusd",
+          "image": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/128x128/0xd4aa386bfceeedd9de0875b3ba07f51808592e22.png",
+          "background": "linear-gradient(225deg, #000, #8088)",
+          "subicons" : ["sonic"],
+        },
+        {
+          "name": "eliteRingsScETH",
+          "description": "Liquid Wrappers & Vote Optimizer for Rings/Trevee's governance NFTs. <br><b>Stake eliteRingsScETH to Earn ETH.</b>",
+          "url": "https://eliteness.network/rings/sceth",
+          "image": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/128x128/0xdc2de2f2c0122ff7cb8482dc47da75a6a5d1a88b.png",
           "background": "linear-gradient(225deg, #356ff4,purple)",
           "subicons" : ["sonic"],
         },
@@ -104,6 +128,59 @@ const DATA = {
           "background": "linear-gradient(315deg, #560f5c, #b60f00)",
           "subicons" : ["avax"],
         }
+      ]
+    },
+    {
+      "title": "ElitenessOFT Bridge",
+      "tiles": [
+        {
+          "name": "$ELITE Bridge",
+          "description": "Move ELITE token across chains!",
+          "url": "https://eliteness.network/bridge/elite",
+          "image": "https://ftm.guru/icons/eliteness.png",
+          "background": "linear-gradient(45deg,black,#fff1,black)",
+          "subicons" : ["ftm", "base", "arb1","sonic", "bsc", "blast", "bera", "eth", "optimism", "avax", "pol", "linea", "fraxtal", "hyperevm", "plasma"],
+        },
+        {
+          "name": "$MCLB Bridge",
+          "description": "Move MCLB token across chains!",
+          "url": "https://eliteness.network/bridge/mclb",
+          "image": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/128x128/0x44e23b1f3f4511b3a7e81077fd9f2858df1b7579.png",
+          "background": "linear-gradient(315deg, #0e0e32,#0d7676)",
+          "subicons" : ["ftm", "base", "sonic", "bsc", "blast", "avax", "arb1", "plasma"],
+        },
+        {
+          "name": "$BOL Bridge",
+          "description": "Move BOL token across chains!",
+          "url": "https://eliteness.network/bridge/bol",
+          "image": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/128x128/0x38628cb4cc74cbdfb6ddd877b17c1f60fcae7c2c.png",
+          "background": "linear-gradient(225deg, #f007, #f73a)",
+          "subicons" : ["ftm", "base", "sonic", "bsc", "blast", "bera", "arb1", "linea", "plasma"],
+        },
+        {
+          "name": "$FIERY Bridge",
+          "description": "Move FIERY token across chains!",
+          "url": "https://eliteness.network/bridge/fiery",
+          "image": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/128x128/0xf97d438bc03ad0f75b83ce5714c9619880b305bc.png",
+          "background": "linear-gradient(225deg, red,brown)",
+          "subicons" : ["ftm", "base", "sonic", "bsc", "blast", "plasma"],
+        },
+        {
+          "name": "$TRENCHES Bridge",
+          "description": "Move TRENCHES token across chains!",
+          "url": "https://eliteness.network/bridge/trenches",
+          "image": "https://ftm.guru/icons/trenches.png",
+          "background": "linear-gradient(135deg, #0033,#f03)",
+          "subicons" : ["base","sonic", "avax", "pol", "fraxtal", "hyperevm", "plasma"],
+        },
+        {
+          "name": "$fMULTI Bridge",
+          "description": "Move fMULTI token across chains!",
+          "url": "https://eliteness.network/bridge/fmulti",
+          "image": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/128x128/0x39838b880ba948c49aab7253f61ce1e00c30c014.png",
+          "background": "linear-gradient(235deg, black, navy)",
+          "subicons" : ["ftm", "base", "sonic", "bsc", "blast", "plasma"],
+        },
       ]
     },
     {
@@ -445,6 +522,9 @@ const DATA = {
 
 
 
+
+
+
 const ICONS = {
   //[
 	"eth" : "https://ftm.guru/icons/eth.svg",
@@ -463,7 +543,10 @@ const ICONS = {
 	"blast" : "https://ftm.guru/icons/blast.svg",
 	"bera" : "https://ftm.guru/icons/bera.svg",
 	"optimism" : "https://ftm.guru/icons/optimism.svg",
-	"linea" : "https://ftm.guru/icons/linea.png"
+	"hyperevm" : "https://ftm.guru/icons/hype.png",
+	"linea" : "https://ftm.guru/icons/linea.png",
+	"fraxtal" : "https://ftm.guru/icons/frax.svg",
+	"plasma" : "https://ftm.guru/icons/plasma.svg"
   //]
 }
 
